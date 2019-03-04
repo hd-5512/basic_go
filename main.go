@@ -1,7 +1,10 @@
 package main
 
-import "myproject/test"
+import (
+	"basic_go/test"
+)
 
+//import "basic_go/test"
 //import 尽量使用绝对路径的写法 如上 其实是在加载  GOPATH/src/myproject/test 模块   GOPATH
 
 // import( . "fmt" )   点引入可以在使用包内函数时不用申明包 fmt.Println("hello world")可以省略的写成Println("hello world")
@@ -17,7 +20,7 @@ func main()  {
 	//test.Test("practise")
 	//test.TestInterface()
 
-	test.TestString()
+	//test.TestString()
 }
 
 

@@ -3,7 +3,6 @@ package test
 import "fmt"
 
 func TestPractise(){
-	//for循环和if...else 结构语法联系
 	ShowYangHuiTriangle1(10)
 	ShowYangHuiTriangle2(10)
 	TestGoto()
