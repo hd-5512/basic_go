@@ -16,21 +16,13 @@ import (
 
 
 func main()  {
-	leetcode.TwoSun()
-	leetcode.AddTwoNumber()
-	leetcode.LengthOfLongestSubstring()
-
-
-
+	leetcode.Index()
+	//leetcode.LengthOfLongestSubstring()
 	test.Test("value")      //go的数据类型以及变量常量
 	//test.Test("struct")
 	//test.Test("practise")
 	//test.TestInterface()
-
 	//test.TestString()
-
-
-
 
 }
 //init  和 main 都是go 中的保留函数

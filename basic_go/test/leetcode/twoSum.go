@@ -26,6 +26,8 @@ func TwoSun(){
 	fmt.Println(res2)
 }
 
+
+//O(n * n)
 func twoSum(nums[]int,target int) []int {
 	for k1,v1:=range nums {
 		for k2,v2 :=range nums {
@@ -37,6 +39,7 @@ func twoSum(nums[]int,target int) []int {
 	return []int{}
 }
 
+//O(n+n)  新设一个新的空间 keys 通过检查是否存在另一个数
 func twoSum2(nums[]int,target int) []int {
 	keys := make(map[int]int,len(nums))
 
@@ -46,7 +49,7 @@ func twoSum2(nums[]int,target int) []int {
 
 	for k1,v1 :=range nums {
 		v2 := target - v1
-		if k2,ok := keys[v2]; k1 != k2 && ok {
+		if k2,ok := keys[v2]; ok && k1 != k2 {
 			return []int{k1, k2}
 		}
 	}
