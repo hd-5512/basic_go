@@ -1,7 +1,6 @@
 package main
 
 import (
-	"../basic_go/test"
 	"../basic_go/test/leetcode"
 )
 
@@ -18,7 +17,7 @@ import (
 func main()  {
 	leetcode.Index()
 	//leetcode.LengthOfLongestSubstring()
-	test.Test("value")      //go的数据类型以及变量常量
+	//test.Test("value")      //go的数据类型以及变量常量
 	//test.Test("struct")
 	//test.Test("practise")
 	//test.TestInterface()
