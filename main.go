@@ -1,7 +1,7 @@
 package main
 
 import (
-	"basic_go/test"
+	"basic_go/leetcode"
 )
 
 //import "basic_go/test"
@@ -15,15 +15,15 @@ import (
 
 
 func main()  {
-	test.Test("value")      //go的数据类型以及变量常量
+	leetcode.Index();
+	//leetcode.LengthOfLongestSubstring()
+	//test.Test("value")      //go的数据类型以及变量常量
 	//test.Test("struct")
 	//test.Test("practise")
 	//test.TestInterface()
-
 	//test.TestString()
+
 }
-
-
 //init  和 main 都是go 中的保留函数
 
 //main 只能应用于 package main  而 init 可以应用于所有 package  =》 这意味着main package中 可以同时存在 main 和 init
